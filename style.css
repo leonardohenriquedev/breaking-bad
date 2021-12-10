@@ -2,17 +2,21 @@
   margin: 0;
 }
 
-.display{
+.display {
   display: none;
 }
 
 header {
   width: 100%;
-  height: 30px;
-  background-color: #feb02f;
+  height: 40px;
+  background-color: #feaf2fe7;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header img {
+  width: 30px;
 }
 
 body {
@@ -24,13 +28,14 @@ body {
   color: rgb(46, 46, 46);
   background-image: url(/bb.jpg);
   background-size: cover;
+
 }
 
 input {
-  height: 20px;
+  height: 25px;
   text-align: center;
   width: 250px;
-  margin: 2%;
+  margin: 2% 1%;
   outline: none;
   border-radius: 5px;
   border: none
@@ -39,20 +44,20 @@ input {
 .character {
   font-size: 1.4em;
   width: 400px;
-  margin: 4%;
+  margin-top: 4%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   line-height: 30px;
-  background-color: rgba(240, 255, 255, 0.548);
-  padding: 20px;
-  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.342);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .c-img {
   margin-top: 5%;
-  height: 60vh;
+  height: 50vh;
   border-radius: 20px;
 }

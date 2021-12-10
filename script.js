@@ -17,6 +17,7 @@ input.addEventListener('keypress', async(event) => {
     <div class='c-occ'>Occupation: ${characterObj.occupation.join(', ')}</div>
     <img class='c-img' src="${characterObj.img}" alt="Pic of ${characterObj.name}">    `
     character.classList = 'character';
+    input.value = '';
   }
 })
 
